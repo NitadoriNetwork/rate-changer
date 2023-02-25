@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "name": "@mikan0528-akn/rate-changer",
+  "description": "## 使用しているnpm - discord.js - dotenv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "似鳥"
+}

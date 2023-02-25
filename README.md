@@ -1,0 +1,15 @@
+# レート変換BOT
+## 説明
+- Discord上で動くbotくんです
+
+## 使用しているnpm
+- discord.js
+- dotenv
+
+## .envファイルに書く内容
+|変数名|内容|
+|:---:|:---:|
+|BOTTOKEN|トークン|
+|BOTCLIENTID|クライアントID|
+
+Developed by 似鳥
