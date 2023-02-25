@@ -4,11 +4,20 @@
     "dotenv": "^16.0.3"
   },
   "name": "@mikan0528-akn/rate-changer",
-  "description": "## 使用しているnpm - discord.js - dotenv",
+  "description": "https://github.com/mikan0528-akn/rate-changer/blob/master/README.md",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "似鳥"
+  "author": "似鳥",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikan0528-akn/rate-changer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikan0528-akn/rate-changer/issues"
+  },
+  "homepage": "https://github.com/mikan0528-akn/rate-changer#readme"
 }
