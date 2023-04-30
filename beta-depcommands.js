@@ -16,14 +16,14 @@ const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
 
 (async () => {
 	try {
-		console.log(`${commands.length} 個のアプリケーションコマンドを登録します！`);
+		console.log(`${commands.length} 個のアプリケーションコマンドを登録します。`);
 
 		const data = await rest.put(
-			Routes.applicationCommands(process.env.CLIENTID),
+			Routes.applicationGuildCommands(process.env.CLIENTID, process.env.GUILDID),
 			{ body: commands },
 		);
 
-		console.log(`${data.length} 個のアプリケーションコマンドを登録しました〜！`);
+		console.log(`${data.length} 個のアプリケーションコマンドを登録しました。`);
 	} catch (error) {
 		console.error(error);
 	}

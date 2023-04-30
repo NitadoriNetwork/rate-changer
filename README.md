@@ -9,7 +9,8 @@
 ## .envファイルに書く内容
 |変数名|内容|
 |:---:|:---:|
-|BOTTOKEN|トークン|
-|BOTCLIENTID|クライアントID|
+|TOKEN|トークン|
+|CLIENTID|クライアントID|
+|GUILDID|ギルドID|
 
-Developed by 似鳥
+Developed by Nitadori Network
